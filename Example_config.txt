@@ -1,0 +1,40 @@
+### Do not edit anything left of the colon! ###
+### WiFi ###
+ssid:""
+password:""
+### apn ###
+apn:"data.lycamobile.nl"
+apn_User:"lmnl"
+apn_Pass:"plus"
+### api ###
+httpapi:"http://jrbubuntu.ddns.net:5000/api/telemetry"
+### GSM or WiFi ###
+ConnectionMode:WiFi
+### Set Pin to sensor (no space after colon!) ###
+GSM_RX_PIN:44
+GSM_TX_PIN:43
+Pin_MQ8:1
+DHT_SENSOR_PIN:6
+DS18B20_PIN:4
+flowSensorPin:5
+EC_PIN:2
+CurrentPin:8
+PH_PIN:3
+voltPin:15
+SW_420_Pin:18
+### Set Frequency measurements (no space after colon!) ###
+temperatureAmount:5
+phValueAmount:2
+humidityAmount:5
+ecValueAmount:2
+flowRateAmount:1
+acsAmount:10
+ds18b20Amount:5
+h2Amount:5
+voltAmount:10
+powerAmount:10
+### Set calibration factor flowsensor ###
+flowSensorCalibration:21.00
+SW420Amount:5
+### Set mobile number (include plus sign and country code and remove leading 0 of "06"! And again, no space after colon!) ###
+mobileNumber:
